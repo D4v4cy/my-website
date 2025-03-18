@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>SSH - The Backdoor That Never Closes</title>
+</head>
+<body>
+    <header>
+        <h1 class="text-white">SSH - The Backdoor That Never Closes</h1>
+        <h2 class="text-red">The lock that keeps you safe. The key that lets me in.</h2>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+    
+    <section>
+        <p class="terminal-text">Once upon a time, someone told you <strong>SSH is secure.</strong></p>
+        <p class="text-white">They lied.</p>
+        <p class="text-white">SSH isn't secure. SSH is <strong>a promise</strong>—a flimsy handshake between two machines whispering secrets in the dark.</p>
+        <p class="text-white">And the best part?</p>
+        <p class="text-white">It never truly locks.</p>
+        <p class="text-white">Not if you know where to look.</p>
+        <p class="text-white">Not if you know <strong>how to knock.</strong></p>
+        
+        <hr>
+        
+        <h3 class="text-blue">Act 1: What SSH <em>Should</em> Be Used For (The Lies They Tell You)</h3>
+        <p class="text-white">Secure. Shell.</p>
+        <p class="text-white">Two words that make sysadmins sleep at night, thinking their <strong>remote access is safe.</strong></p>
+        <p class="text-white">They believe:</p>
+        <ul>
+            <li class="text-white">🔒 <strong>It encrypts their connection.</strong></li>
+            <li class="text-white">🔑 <strong>Only the right keys can get in.</strong></li>
+            <li class="text-white">🚪 <strong>If something goes wrong, they can always close the door.</strong></li>
+        </ul>
+        <p class="text-white">Cute.</p>
+        <p class="text-white">Now, let's talk about <strong>what SSH is actually used for.</strong></p>
+        
+        <hr>
+        
+        <h3 class="text-blue">Act 2: What SSH Is <em>Actually</em> Used For (The Part They Don't Teach You)</h3>
+        <p class="text-white">SSH is a <strong>golden ticket.</strong></p>
+        <p class="text-white">A magic tunnel between <strong>you and whatever you want to own.</strong></p>
+        <p class="text-white">And once you slip inside, <strong>you don't have to leave.</strong></p>
+        <ul>
+            <li class="text-white">💀 <strong>Port forwarding? Now their machine is your machine.</strong></li>
+            <li class="text-white">🖥️ <strong>Tunneling? Now you have an encrypted highway through their defenses.</strong></li>
+            <li class="text-white">🔓 <strong>Key injection? Now their access is your access. Forever.</strong></li>
+        </ul>
+        <p class="text-white">Ever wonder how an SSH key, once stolen, can become a <strong>permanent infestation</strong>?</p>
+        <p class="text-white">It's because most people <strong>never check</strong> who's connected.</p>
+        <p class="text-white">They just assume the only ones inside <strong>are the ones who belong.</strong></p>
+        <p class="text-white"><em>Funny how that works.</em></p>
+        
+        <hr>
+        
+        <h3 class="text-blue">Act 3: Owning a Box with Bad SSH Configs (A Tale of Poor Decisions)</h3>
+        <p class="text-white">Step 1: <strong>Find an open SSH port.</strong></p>
+        <p class="text-white">(Hint: <strong>22</strong> isn't the only option. Some people try to be clever. They aren't.)</p>
+        <p class="text-white">Step 2: <strong>Brute force? Too loud. Password spraying? Maybe. But let's be smarter.</strong></p>
+        <ul>
+            <li class="text-white">Did they leave a weak key in `~/.ssh/authorized_keys`?</li>
+            <li class="text-white">Did they forget to disable root login?</li>
+            <li class="text-white">Are they running an ancient version with <strong>CVE-listed exploits</strong>?</li>
+        </ul>
+        <p class="text-white">Step 3: <strong>Congratulations, you're in.</strong></p>
+        <p class="text-white">Now, the real fun begins.</p>
+        <p class="text-white">Do you:</p>
+        <ul>
+            <li class="text-white">A) <strong>Leave a silent, encrypted backdoor?</strong></li>
+            <li class="text-white">B) <strong>Pivot through their network like a ghost?</strong></li>
+            <li class="text-white">C) <strong>Lock them out of their own system and watch them panic?</strong></li>
+        </ul>
+        <p class="text-white">(Hint: The answer is <strong>D: All of the above.</strong>)</p>
+        
+        <hr>
+        
+        <h3 class="text-blue">Act 4: How <em>Not</em> to Get Caught (Or: Why You'll Never Find Me)</h3>
+        <p class="text-white">The first rule of owning a machine?</p>
+        <p class="text-white"><strong>Don't leave fingerprints.</strong></p>
+        <ul>
+            <li class="text-white">🐍 <strong>Use ProxyChains.</strong></li>
+            <li class="text-white">🕵️ <strong>Use a jump server.</strong></li>
+            <li class="text-white">📡 <strong>Route through Tor or i2p.</strong></li>
+            <li class="text-white">💣 <strong>Set up reverse shells that delete themselves.</strong></li>
+        </ul>
+        <p class="text-white">Oh, and the best trick?</p>
+        <p class="text-white"><strong>Don't be greedy.</strong></p>
+        <p class="text-white">Don't max out CPU.</p>
+        <p class="text-white">Don't change files randomly.</p>
+        <p class="text-white">Don't trigger IDS alerts.</p>
+        <p class="text-white">Because the best exploit is the one <strong>they never even notice.</strong></p>
+        
+        <hr>
+        
+        <h3 class="text-blue">Act 5: Why People Still Think SSH is Safe (And Why That's Hilarious)</h3>
+        <p class="text-white">Every day, companies <strong>blindly trust</strong> SSH.</p>
+        <p class="text-white">They think <strong>strong passwords and 2FA will save them.</strong></p>
+        <p class="text-white">They believe <strong>logs will warn them.</strong></p>
+        <p class="text-white">But security through <strong>complacency</strong> is the funniest joke of all.</p>
+        <p class="text-white">Because <strong>the best backdoors</strong> aren't brute-forced.</p>
+        <p class="text-white">They aren't obvious.</p>
+        <p class="text-white">They're <strong>installed willingly.</strong></p>
+        <p class="text-white">And when you realize <strong>SSH isn't just a tool—it's a weapon?</strong></p>
+        <p class="text-white">Well.</p>
+        <p class="text-white">Then you'll understand why it's called <strong>"the backdoor that never closes."</strong></p>
+        
+        <p class="quote-flicker">See you inside.</p>
+        <p class="text-red">— <strong>D4v4cy</strong></p>
+    </section>
+    
+    <footer>
+        <p class="terminal-text">root@d4v4cy:~$ exit … But did you ever really leave?</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
